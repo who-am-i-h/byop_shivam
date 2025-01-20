@@ -29,7 +29,18 @@ dataset = CustomDataset(
 )
 ```
 
+### NOTE
+
+# Reagarding the the accuracy of model
+
+- The loss is calculated in a manner that i split the output of the captcha in 5 chars and then calculate the loss of each char using cross entropy loss and then sum up those values to give the final loss
+
+- The graph shows that the Loss if decreasing over each epoch on the training sample and also on regular interval of the validation samples
+
+
 Model 2
+
+
 # Multi-Output CNN Character Recognition Model
 
 ## Overview
